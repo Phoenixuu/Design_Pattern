@@ -1,0 +1,18 @@
+Lesson 2: Singleton Pattern
+A creation Design Pattern
+- Creation 1 instance of object
+Tĩnh (static) Tham chiếu cpp
+Hàm hủy
+Public, private
+Phân bổ bộ nhớ cho đối tượng: Lỗi segmentation fault
+
+Lesson 3: Factory method
+Cung cấp một cách tổng quát để tạo các phiên bản
+của một đối tưownjg và có thể ẩn chi tiết triển khai
+- Creational Design Pattern
+std::shared_ptr: con trỏ thông minh, tự quản lý bộ nhớ
+thay cho new vs delete
+std::shared_ptr<>: là con trỏ thông minh chó phép nhiều 
+con trỏ cùng sở hữu một đối tượng, quản lý vòng đời ọnect
+enum class: an toàn về scope, tránh nhầm lẫn giữa các liệt kê
+valgrind: check bộ nhớ
