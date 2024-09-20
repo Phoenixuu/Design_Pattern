@@ -21,4 +21,33 @@ public:
 	Plane(int x, int y){
 		ObjectsCreated++;
 	}
-}
+	void ObjectPlayDefaultAnimation() {/* ... */}
+	void ObjectMoveInGame() {/* ... */}
+	void Update() { /* ... */}
+	void Render() { /* ... */}
+	static IGameObject* Create() {
+		return new Plane(0,0);
+	}
+private:
+	static int ObjectsCreated;
+};
+
+class Boat: public IGameObject{
+public:
+	Boat(int x, int y){
+		ObjectsCreated++;
+	}
+	void ObjectPlayDefaultAnimation() {/* ... */}
+	void ObjectMoveInGame() {/* ... */}
+	void Update() { /* ... */}
+	void Render() { /* ... */}
+	static IGameObject* Create() {
+		return new Boat(0,0);
+	}
+private:
+	static int ObjectsCreated;
+};
+
+
+
+#endif
