@@ -1,0 +1,7 @@
+Observer Pattern
+Trả về phương thức bằng cách gọi nó ra
+VD: Bird chạm vào ... => trả về hàm .....
+Model - View - Controller
+2 classes: subject + observer
+Subject: Publisher, Observable
+
