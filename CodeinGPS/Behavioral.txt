@@ -1,0 +1,27 @@
+Subject: chủ thể 
+Observer: Ng quan sát
+Chức năng: 
+- Maintain
+- Flexible 
+- Extensible 
+
+
+Concrete Subject: Subject interface or abstract class
+Chức năng: 
+- State Management: lưu trữ trạng thái nội bộ của ng quan sát
+Nó kích hoạt thông báo cho tất cả quan sát đính kèm
+- Notify Observer: Khi thay đổi trạng thái, Concrete Subject
+gọi và cập nhật cho ng quan sát về sự thay đổi
+
+Concrete Observer: Observer interface, responds notify from sj
+Chức năng:
+- Update logic: implements update() method khi được gọi
+- Dependent on subject: Ng quan sát dựa vào trạng thái chủ thể
+và thay đổi trạng thái, cập nhạt
+
+Các phần:
+1. A simple implement
+2. Extensibility & Abstraction
+3. Registration
+4. Notify Specific
+5. Review 
