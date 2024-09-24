@@ -23,5 +23,5 @@ Các phần:
 1. A simple implement
 2. Extensibility & Abstraction
 3. Registration and lifetime
-4. Notify Specific
+4. Notify Specific system
 5. Review 

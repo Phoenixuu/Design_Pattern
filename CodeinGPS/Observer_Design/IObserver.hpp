@@ -14,7 +14,7 @@ public:
 class Watcher : public IObserver{
 public: 
 	// Automatically register Watcher to subject
-	explicit Watcher(ISubject& subject, const std::string& name);
+	explicit Watcher(ISubject& subject, int message, const std::string& name);
 
 	// Automatically remove Watcher from ISubject 
 	~Watcher();
@@ -23,5 +23,6 @@ public:
 
 private:
 	std::string mName;
+	int mMessage;
 	ISubject& mSubject;
 };

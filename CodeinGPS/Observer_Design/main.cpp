@@ -20,9 +20,9 @@
 
 int main(){
 	SomeSubject subject;
-	Watcher watcher1(subject,"Watch");
-	Watcher watcher2(subject,"Hat");
-	Watcher watcher3(subject,"Pant");
+	Watcher watcher1(subject,SomeSubject::PLAYSOUND,"Mountain");
+	Watcher watcher2(subject,SomeSubject::PLAYSOUND,"Fire");
+	Watcher watcher3(subject,SomeSubject::LOG,"Water");
 
 	// subject.AddObserver(&watcher1);
 	// subject.AddObserver(&watcher2);
@@ -30,10 +30,13 @@ int main(){
 
 	subject.NotifyAll();
 
-	// subject.RemoveObserver(&watcher3);
+	// subject.RemoveObserver(SomeSubject::PLAYSOUND, &watcher1);
 	std::cout << std::endl;
 
-	subject.NotifyAll();
+	subject.Notify(SomeSubject::LOG);
+
+	std::cout << std::endl;
+	subject.Notify(SomeSubject::PLAYSOUND);
 
 	return 0;
 }

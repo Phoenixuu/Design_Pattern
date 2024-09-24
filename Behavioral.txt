@@ -4,4 +4,4 @@ VD: Bird chạm vào ... => trả về hàm .....
 Model - View - Controller
 2 classes: subject + observer
 Subject: Publisher, Observable
-
+1 subject nhiều observers
