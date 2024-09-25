@@ -15,6 +15,7 @@ void ISubject::AddObserver(int message, IObserver* observer){
 	mObservers[message].push_front(observer);
 }
 
+//Hàm này có vấn đề gây ra lỗi segmentation fault (nhưng ko biết sửa :V)
 void ISubject::RemoveObserver(int message, IObserver* observer){
 	auto it = mObservers.find(message);
 	if(it != mObservers.end()){
@@ -40,6 +41,7 @@ void ISubject::NotifyAll(){
 	}
 }
 
+//Cũng có thể là lý do gây segmentation fault nhưng chưa biết sửa 
 void ISubject::Notify(int message){
 	for(auto& o: mObservers[message]){
 		o->OnNotify();

@@ -22,7 +22,7 @@ public:
 	void OnNotify();
 
 private:
+	ISubject& mSubject;
 	std::string mName;
 	int mMessage;
-	ISubject& mSubject;
 };

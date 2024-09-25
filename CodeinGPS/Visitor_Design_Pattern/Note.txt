@@ -1,0 +1,29 @@
+1990s: OOP 
+- Inheritance and virtuals
+2000s: Generic Programming
+- Iterator
+2020s: Design by Introspection
+Multi-paradism
+Procedural programming
+Basic of Programming - Procedural style
+- functions
+- structured data: enum, struct, enum class, union.
+OOP:
+- Encapsulation: objects
+- Abstraction: Objects and classes
+- Inheritance: interface
+- Polymorphism: virtual, hierarchy
+Function Programming:
+- lamba, higher-order function, single input;
+- memorize, copy, const, std::variant
+- Pattern matching
+
+Một số trường hợp điển hình khi sử dụng std::function:
+    Callback function: Khi bạn cần lưu trữ và truyền hàm như một đối số.
+    Event handling: Lưu trữ các hàm xử lý sự kiện trong các chương trình GUI hoặc các hệ thống event-driven.
+    Functor: Lưu trữ các đối tượng hàm (functor) hoặc lambda để sử dụng sau đó.
+    
+Tham chiếu: & a, sẽ giúp tránh sao chép, giảm tài nguyên bộ
+nhớ và tăng hiệu suất.
+
+Object Oriented Hierarchies

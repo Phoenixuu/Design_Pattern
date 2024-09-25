@@ -10,7 +10,6 @@ public:
 	virtual ~ISubject(); 
 	
 	virtual void AddObserver(int message, IObserver* observer);
-
 	virtual void RemoveObserver(int message, IObserver* observer);
 
 	void NotifyAll();

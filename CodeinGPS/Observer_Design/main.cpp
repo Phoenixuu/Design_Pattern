@@ -3,21 +3,6 @@
 #include "IObserver.hpp"
 #include "ISubject.hpp"
 
-// class Observer{
-// public:
-// 	Observer(std::string name): mName(name){
-// 	}
-
-// 	void OnNotify(){
-// 		std::cout << mName << " Pip pip pip !!!\n";
-// 	}
-
-// private:
-// 	std::string mName;
-// };
-
-
-
 int main(){
 	SomeSubject subject;
 	Watcher watcher1(subject,SomeSubject::PLAYSOUND,"Mountain");
