@@ -1,0 +1,2 @@
+Flyweight is a shared object that can be used multiple contexts simultaneously
+
