@@ -27,3 +27,15 @@ Tham chiếu: & a, sẽ giúp tránh sao chép, giảm tài nguyên bộ
 nhớ và tăng hiệu suất.
 
 Object Oriented Hierarchies
+
+Pros:
+Open closed princible, extend behaviors, implement detail from class
+Netral:
+Repeat some socde, at least it is in same struct/class
+Cons:
+lots of polymorphism 
+restriced public interface
+
+
+std::visit  // thư viện đc c++ hỗ trợ
+
