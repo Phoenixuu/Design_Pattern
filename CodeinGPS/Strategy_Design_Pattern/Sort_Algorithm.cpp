@@ -55,3 +55,20 @@ int main(){
 
 	return 0;
 }
+
+// //Execution Policy || Modern C++ design
+// template< class ExcutionPolicy, class ForwardIt, class T, class BinaryOp>
+// T reduce( ExcutionPolicy&& policy, 
+// 	ForwardIt first, ForwardIt last, T init, BinaryOp binary_op );
+
+// template<class RandomIt, class Compare>
+// constexpr void sort_heap(RandomIt first, RandomIt last, Compare comp);
+
+// template<
+// class T,
+// class Allocator = std::allocator<T>
+// > class vector;
+// namespace pmr {
+// 	template<class T>
+// 	using vector = std::vector<T, std::pmr::polymorphic_allocator<T>>;
+// }

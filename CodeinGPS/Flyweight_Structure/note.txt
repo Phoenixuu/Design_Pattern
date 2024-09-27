@@ -1,2 +1,6 @@
 Flyweight is a shared object that can be used multiple contexts simultaneously
 
+Instrinsic state: Trạng thái được chia sẻ giữa các đối tượng
+Extrinsic state: Trạng thái khác nhau giữa các đối tượng và ko được chia sẻ 
+
+VD: Trong game, các cây cối có thể giống nhau, chỉ cần lưu 1 bản và chia sẻ nó 

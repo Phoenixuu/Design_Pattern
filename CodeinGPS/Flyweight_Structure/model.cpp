@@ -15,5 +15,6 @@ struct Model{
 	Bark b;
 	Leaves l;
 
-	void DrawOprator(ExtrinsicState e){}
+	void DrawOperator(ExtrinsicState e){}
 };
+
