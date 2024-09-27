@@ -1,0 +1,23 @@
+Component Pattern Design
+
+GameObject: Components
+
+decouping pattern: allow component to span multiple demain
+base structm new types
+
+Container: 
+Constructer, interface
+
+Add and retrieve components
+enum class ComponentType{..,..,..};
+
+Pro:
+Flexibility at runtime to add or remove components
+Compromise: 
+Only store 1 type of each component
+Cons:
+not meet our secondary goal of performance, cache issue remain,
+still lots of indirection
+
+Oriented Design:
+
