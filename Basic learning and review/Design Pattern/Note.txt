@@ -1,0 +1,26 @@
+1. Creational patterns
+	* Factory Method
+	* Abstract Method
+	* Builder
+	* Prototype
+	* Singleton
+2. Structural patterns
+	* Adapter
+	* Bridge
+	* Composite
+	* Decorator
+	* Facade
+	* Flyweight
+	* Proxy
+3. Behavioural patterns
+	* Interpreter
+	* Template Method
+	* Chain of Resposibility
+	* Command
+	* Iterator
+	* Mediator
+	* Memento
+	* Observer
+	* State
+	* Strategy
+	* Visitor
