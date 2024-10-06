@@ -1,0 +1,17 @@
+Observer Pattern
+Trả về phương thức bằng cách gọi nó ra
+VD: Bird chạm vào ... => trả về hàm .....
+Model - View - Controller
+2 classes: subject + observer
+Subject: Publisher, Observable
+1 subject nhiều observers
+Interface Observer
+ogre3d.org/docs
+More Idea:
+smart_ptr
+use enum class instead of enum
+data structure uograde: priority_queue, unordered_map, 
+Game proframming patterns
+Angry bird thought
+Why:
+extensible, maintainable, flexible, thread-safety

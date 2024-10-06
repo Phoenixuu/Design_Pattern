@@ -1,0 +1,6 @@
+Sorting Algorithm
+1. Maintain flexible to choose algorithms
+2. Manage complexity of code 
+Inheritance 
+Runtime polymorphism
+
