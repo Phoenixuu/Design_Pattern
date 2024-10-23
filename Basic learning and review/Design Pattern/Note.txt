@@ -1,5 +1,7 @@
 1. Creational patterns: Tạo đối tượng giúp tăng tính linh hoạt và tái sử dụng
+
 2. Structural patterns: giải thích tập hợp các đối tượng và lớp thành các cấu trúc lớn hơn, đồng thời giữ cho cấu trúc linh hoạt và hiệu quả
+
 3. Behavioral patterns: Đảm bảo giao tiếp hiệu quả và phân công trách nghiệm giữa các vật thể
 
 1. Creational patterns
@@ -28,3 +30,10 @@
 	* State
 	* Strategy
 	* Visitor
+	
+	
+- Abstract Method:
+	Abstract Products
+	Concrete Products
+	Abstract Factory
+	Concrete Factories
