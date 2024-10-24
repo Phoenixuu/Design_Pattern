@@ -37,3 +37,6 @@
 	Concrete Products
 	Abstract Factory
 	Concrete Factories
+	
+- Build Method:
+	Eg: House, build wall, build door, build window, build roof, build garagage
