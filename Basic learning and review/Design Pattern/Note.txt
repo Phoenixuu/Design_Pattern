@@ -40,3 +40,14 @@
 	
 - Build Method:
 	Eg: House, build wall, build door, build window, build roof, build garagage
+	Class
+	Builder:con trỏ trong get()
+	overide builder: con trỏ địa chỉ mCharacter 
+	director: set + construct, con trỏ mBuilder
+	main: gọi builder và director, direct set + construct. từ builder xây nhân vật -> in ra
+	
+
+- Prototype pattern:
+	Dùng để copy những cái đã khởi tạo sẵn giống nhau mà ko cần khởi tạo lại
+	
+	

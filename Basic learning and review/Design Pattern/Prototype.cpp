@@ -47,6 +47,7 @@ public:
 
 int main(){
 	DocumentPrototypeFactory factory;
+	
 	Document* resume = factory.createDocument("resume");
 	if(resume) {
 		resume -> print();
