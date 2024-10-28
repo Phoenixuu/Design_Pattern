@@ -1,0 +1,6 @@
+Enemy*: Tạo đối tượng mà ko cần biết kiểu cụ thể
+const: tạo bản sao mà ko thay đổi giá trị của nó
+protected: Lớp dẫn xxuaast subclasses. Dùng ko cần getter/setter, linh động, ví dụ thay đổi health khi bị tấn công
+
+	unordered_map<string, Enemy*> prototypes; 
+prototypes là một unordered_map lưu trữ các con trỏ đến các prototype Enemy ban đầu
