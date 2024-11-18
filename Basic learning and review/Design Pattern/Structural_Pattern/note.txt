@@ -1,5 +1,5 @@
 Bridge
-
+Liên kết chéo
 1. shape
 circle : shape
 rectangle : shape
@@ -17,4 +17,7 @@ Composite
 1. define interface product
 2. implement product class
 3. Implement composite product class
+Cấu trúc phân cấp, đối tượng đơn lẻ
 
+Decorator
+Mở rộng kế thùa liên tục 
