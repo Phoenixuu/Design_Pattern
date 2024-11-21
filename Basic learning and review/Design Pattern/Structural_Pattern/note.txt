@@ -1,3 +1,7 @@
+Adapter
+Sử dụng lớp hiện có
+Đóng gói lại và ko xóa đi lớp ban đầu
+
 Bridge
 Liên kết chéo
 1. shape
@@ -20,4 +24,7 @@ Composite
 Cấu trúc phân cấp, đối tượng đơn lẻ
 
 Decorator
-Mở rộng kế thùa liên tục 
+Mở rộng kế thừa liên tục 
+
+Facade 
+1 lớp quản lý nhiều class phức tạp
