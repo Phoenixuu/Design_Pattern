@@ -28,3 +28,10 @@ Mở rộng kế thừa liên tục
 
 Facade 
 1 lớp quản lý nhiều class phức tạp
+
+Flyweight
+FlyweightFactory manages pool flyweight
+Client interact with factory instead of creating flyweights directly
+giups giamr Ram vaf tanwg toocs cpu
+Có nhiều đối tượng giống nhau hoặc tương tự
+Cùng chia sẻ trạng thái
