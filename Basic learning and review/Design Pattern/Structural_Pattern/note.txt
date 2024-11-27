@@ -35,3 +35,8 @@ Client interact with factory instead of creating flyweights directly
 giups giamr Ram vaf tanwg toocs cpu
 Có nhiều đối tượng giống nhau hoặc tương tự
 Cùng chia sẻ trạng thái
+
+Proxy:
+Đại diện, quản lý life cycle 
+hơi phức tạp và bị chậm
+
