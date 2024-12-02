@@ -4,3 +4,6 @@ Diễn giải lệnh
 Template Method
 Kiểm soát trình tự, cấu trúc trong lớp cha (Template)
 Cài đặt cụ thể trong lớp con 
+
+Chain_of_responsibility
+Handler lines up one by one
