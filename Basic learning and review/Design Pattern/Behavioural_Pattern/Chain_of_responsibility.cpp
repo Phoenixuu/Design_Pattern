@@ -3,8 +3,8 @@
 
 // Step 1: Define the abstract hanler class and its concrete implementations
 class SupportHandler {
-protected:
-	SupportHandler* nextHandler:
+protected :
+	SupportHandler* nextHandler ;
 
 public:
 	SupportHandler() : nextHandler(nullptr){}
@@ -12,7 +12,7 @@ public:
 		nextHandler = handler;
 	}
 
-	virtual void handlerRequest(const std::string& request) = 0;
+	virtual void handleRequest(const std::string& request) = 0;
 };
 
 class TechnicalSupportHandler : public SupportHandler {
@@ -31,19 +31,19 @@ public:
 	void handleRequest(const std::string& request) override {
 		if(request == "billing"){
 			//Handle billing inquiry
-		} else if {
+		} else if (nextHandler != nullptr) {
 			nextHandler -> handleRequest(request);
 		}
 	}
-}
+};
 
 class GeneralInquiryHandle : public SupportHandler {
-public: void handleRequest(const std::string& request) override {
+public: 
 	void handleRequest(const std::string& request) override {
 		if(request == "general"){
 			//Handle general inquiry
 		}
-		else if {
+		else if (nextHandler != nullptr) {
 			nextHandler -> handleRequest(request);
 		}
 	}
