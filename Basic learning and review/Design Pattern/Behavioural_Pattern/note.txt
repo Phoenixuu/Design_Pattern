@@ -7,3 +7,7 @@ Cài đặt cụ thể trong lớp con
 
 Chain_of_responsibility
 Handler lines up one by one
+
+Command
+Multiple button and each button have one function. Encapsulation them
+
