@@ -11,3 +11,6 @@ Handler lines up one by one
 Command
 Multiple button and each button have one function. Encapsulation them
 
+Iterator
+Dùng khi có nhiều collection mà không muốn tiết lộ cấu trúc nội bộ
+Duyệt qua nhiều kiểu collection
