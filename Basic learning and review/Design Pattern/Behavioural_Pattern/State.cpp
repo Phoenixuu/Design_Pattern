@@ -2,6 +2,7 @@
 #include<string>
 
 class Fan;
+
 class LowState;
 class HighState;
 class OffState;

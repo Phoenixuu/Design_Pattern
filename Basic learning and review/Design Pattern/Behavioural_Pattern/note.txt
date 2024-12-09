@@ -17,3 +17,8 @@ Duyệt qua nhiều kiểu collection
 
 Mediator 
 Đóng vai trò trng gian giúp các đối tượng giao tiếp
+
+Tham chiếu, tham trị, con trỏ:
+Tham chiếu:: không sao chép, không tốn tài nguyên, đối tượng lớn
+Tham trị: sao chép, tốn tài nguyên
+Con trỏ: lưu địa chỉ, thao thác trực tiếp, có thể truyền đối tượng lớn
