@@ -22,3 +22,7 @@ Tham chiếu, tham trị, con trỏ:
 Tham chiếu:: không sao chép, không tốn tài nguyên, đối tượng lớn
 Tham trị: sao chép, tốn tài nguyên
 Con trỏ: lưu địa chỉ, thao thác trực tiếp, có thể truyền đối tượng lớn
+
+Obersever
+thiếp lập một đối tượng (Subject) thay đổi trạng thái
+Tất cả đối tượng phụ thuộc (Observers) vào nó được thông báo và cập nhật
