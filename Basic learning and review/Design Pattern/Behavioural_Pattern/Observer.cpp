@@ -76,7 +76,5 @@ int main(){
 	// Set new weather conditions
 	weatherstation.setWeatherConditions(25,80);
 
-	weatherstation.detach(&displayDevice2);
-
 	return 0;
 }
