@@ -59,22 +59,22 @@ public:
 
 int main(){
 	//Create weather station and display devices
-	WeatherStation weatherstation;
-	DisplayDevice displayDevice1;
-	DisplayDevice displayDevice2;
+	WeatherStation thoitiet;
+	DisplayDevice Hanoi;
+	DisplayDevice SaiGon;
 
 	// Attach display devices to the weather station
-	weatherstation.attach(&displayDevice1);
-	weatherstation.attach(&displayDevice2);
+	thoitiet.attach(&Hanoi);
+	thoitiet.attach(&SaiGon);
 
 	// Set weather conditions
-	weatherstation.setWeatherConditions(15,75);
+	thoitiet.setWeatherConditions(15,65);
 
 	// Detach displayDevice1
-	weatherstation.detach(&displayDevice1);
+	thoitiet.detach(&Hanoi);
 
 	// Set new weather conditions
-	weatherstation.setWeatherConditions(25,80);
+	thoitiet.setWeatherConditions(27,80);
 
 	return 0;
 }
