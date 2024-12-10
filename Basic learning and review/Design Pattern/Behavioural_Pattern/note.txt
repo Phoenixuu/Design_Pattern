@@ -26,3 +26,6 @@ Con trỏ: lưu địa chỉ, thao thác trực tiếp, có thể truyền đố
 Obersever
 thiếp lập một đối tượng (Subject) thay đổi trạng thái
 Tất cả đối tượng phụ thuộc (Observers) vào nó được thông báo và cập nhật
+
+Strategy 
+Cho phép định nghĩa 1 tổ thư viện, đưa vào các class khác nhau và sử dụng thay vì kế thừa
